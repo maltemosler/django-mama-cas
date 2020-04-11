@@ -23,7 +23,7 @@ Quickstart
 
 Install with `pip`_::
 
-   $ pip install django-mama-cas
+   $ pip install "git+https://github.com/maltemosler/django-mama-cas.git"
 
 Add to ``INSTALLED_APPS`` and run ``migrate``::
 
@@ -40,7 +40,7 @@ Upgrade
 
 Upgrade with `pip`_::
 
-   $ pip install --upgrade django-mama-cas
+   $ pip install "git+https://github.com/maltemosler/django-mama-cas.git" -U
 
 Before upgrading, see the `changelog`_ for any backward incompatible
 changes or other important upgrade notes.
